@@ -1,0 +1,22 @@
+GET http://localhost:3100/users
+
+###
+POST http://localhost:3100/users
+Content-Type: application/json
+
+{
+    "name": "Giovanni",
+    "email": "mail2@mail.com"
+}
+
+###
+POST http://localhost:3100/contacts
+Email: mail2@mail.com
+Content-Type: application/json,
+
+
+{
+    "name": "João da Silva",
+    "email": "joao@teste.com",
+    "phone": "11 99999-9999"
+}
